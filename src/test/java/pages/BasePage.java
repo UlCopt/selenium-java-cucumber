@@ -59,7 +59,6 @@ public class BasePage {
         List<WebElement> elements = getAllElements(locator);
         for (int i = 0; i < elements.size(); i++) {
             if (i == index ) {
-                System.out.println("aquir");
                 elements.get(index).click();
             }
         }
