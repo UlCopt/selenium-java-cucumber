@@ -14,7 +14,7 @@ Java 11
 Clone repo
 ```
 git clone https://github.com/UlCopt/selenium-java-cucumber.git
-cd automation-challenge
+cd selenium-java-cucumber
 ```
 
 Run tests on mac m1 chip
@@ -29,7 +29,7 @@ gradle test -Dbrowser=local-chrome-macos-x64
 
 Report
 ```
-selenium-java-cucumber/target/cucumber/report.html       
+selenium-java-cucumber/target/report.html       
 ```
 
 
